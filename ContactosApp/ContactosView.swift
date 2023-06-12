@@ -87,7 +87,7 @@ extension ContactosView: UITableViewDelegate, UITableViewDataSource {
         let contacto = listaDeContactos[indexPath.row]
         
         cell.setData(contacto)
-        cell.accessoryType = .detailButton
+        //cell.accessoryType = .detailButton
         
         return cell
     }
